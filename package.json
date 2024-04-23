@@ -4,6 +4,7 @@
   "description": "Anya Theme for Visual Studio Code",
   "version": "0.0.1",
   "repository":  "https://github.com/anya-theme/anya-vsc",
+  "publisher": "choednwn",
   "engines": {
     "vscode": "^1.88.0"
   },
