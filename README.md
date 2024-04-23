@@ -1,6 +1,6 @@
 # Anya Theme for Visual Studio Code
 
-![ThemeScreenshot](/assets/anya-theme.png)
+![ThemeScreenshot](https://github.com/anya-theme/anya-vsc/blob/main/assets/anya-theme.png?raw=true)
 _File Icon Theme: [Bearded Icons](https://marketplace.visualstudio.com/items?itemName=BeardedBear.beardedicons)_
 
 ## Issues
