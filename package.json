@@ -5,6 +5,7 @@
   "version": "0.0.1",
   "repository":  "https://github.com/anya-theme/anya-vsc",
   "publisher": "choednwn",
+  "icon": "assets/anya-icon.png",
   "engines": {
     "vscode": "^1.88.0"
   },
