@@ -213,7 +213,7 @@
       "name": "Comment",
       "scope": ["comment"],
       "settings": {
-        "foreground": "#6ea37b"
+        "foreground": "#797979"
       }
     },
     {
