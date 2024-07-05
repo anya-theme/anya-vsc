@@ -1,9 +1,9 @@
 {
   "name": "anya",
   "displayName": "Anya",
-  "description": "Keeping it simple. Inspired by Vesper Theme",
-  "version": "0.0.3",
-  "repository":  "https://github.com/anya-theme/anya-vsc",
+  "description": "A toned-down theme inspired by Vesper",
+  "version": "0.0.6",
+  "repository": "https://github.com/anya-theme/anya-vsc",
   "publisher": "choednwn",
   "icon": "assets/anya-icon.png",
   "engines": {

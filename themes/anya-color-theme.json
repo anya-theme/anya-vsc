@@ -41,8 +41,8 @@
     "editor.background": "#1e1e1e", // DONE
     "editor.findMatchBackground": "#ffaa0028",
     "editor.foreground": "#cccccc", // DONE
-    "editor.inactiveSelectionBackground": "#3a3d41",
-    "editor.selectionHighlightBackground": "#add6ff26",
+    "editor.inactiveSelectionBackground": "#3a3d41fe", // DONE
+    "editor.selectionHighlightBackground": "#add6ff26", // DONE
 
     "editorGroup.border": "#ffffff17", // DONE
 
@@ -207,7 +207,6 @@
     "widget.border": "#313131"
   },
   "semanticHighlighting": false,
-  "semanticTokenColors": {},
   "tokenColors": [
     {
       "name": "Comment",
@@ -248,6 +247,13 @@
       }
     },
     {
+      "name": "Method", // Not exactly sure if this is the exact scope
+      "scope": ["entity.name.function.member"],
+      "settings": {
+        "foreground": "#cccccc"
+      }
+    },
+    {
       "name": "Variable",
       "scope": ["variable"],
       "settings": {
@@ -256,7 +262,7 @@
     },
     {
       "name": "Storage | Type",
-      "scope": ["storage.type", "meta.function.definition"],
+      "scope": ["storage.type", "storage.modifier", "keyword.type"],
       "settings": {
         "foreground": "#aaaaaa"
       }
@@ -276,6 +282,13 @@
       }
     },
     {
+      "name": "String Escape",
+      "scope": ["constant.character.escape"],
+      "settings": {
+        "foreground": "#a1c7ce"
+      }
+    },
+    {
       "name": "Numbers",
       "scope": ["constant.numeric"],
       "settings": {
@@ -286,7 +299,31 @@
       "name": "Preprocessor",
       "scope": ["entity.name.function.preprocessor"],
       "settings": {
-        "foreground": "#a5c4a8"
+        "foreground": "#6ab6af"
+      }
+    },
+    {
+      "name": "Property Name",
+      "scope": ["support.type.property-name"],
+      "settings": {
+        "foreground": "#aaaaaa"
+      }
+    },
+
+    // LANGUAGE SPECIFIC
+
+    {
+      "name": "(HTML, ---) Tags",
+      "scope": ["entity.name.tag"],
+      "settings": {
+        "foreground": "#aaaaaa"
+      }
+    },
+    {
+      "name": "(HTML, ---) Component - <!DOCTYPE>",
+      "scope": ["support.class.component"],
+      "settings": {
+        "foreground": "#ffc190"
       }
     },
     {
@@ -294,6 +331,13 @@
       "scope": ["entity.name.function.templated"],
       "settings": {
         "foreground": "#dedede"
+      }
+    },
+    {
+      "name": "(CMake) Function",
+      "scope": ["keyword.cmake"],
+      "settings": {
+        "foreground": "#ffc190"
       }
     }
   ]
