@@ -303,6 +303,13 @@
       }
     },
     {
+      "name": "Enumerator",
+      "scope": ["variable.other.enummember"],
+      "settings": {
+        "foreground": "#6ab6af"
+      }
+    },
+    {
       "name": "Property Name",
       "scope": ["support.type.property-name"],
       "settings": {

@@ -1,8 +1,8 @@
 {
   "name": "anya",
   "displayName": "Anya",
-  "description": "A toned-down theme inspired by Vesper",
-  "version": "0.0.6",
+  "description": "Anya Theme for Visual Studio Code",
+  "version": "0.0.7",
   "repository": "https://github.com/anya-theme/anya-vsc",
   "publisher": "choednwn",
   "icon": "assets/anya-icon.png",
