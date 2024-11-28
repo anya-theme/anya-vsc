@@ -18,3 +18,7 @@
 
 - Changed theme description to "Anya Theme for Visual Studio Code"
 - Added color for `Enumerators` - "#6ab6af"
+
+## v0.0.8
+
+- (Python) Fixed method color showing as default text color

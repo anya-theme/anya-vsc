@@ -207,6 +207,9 @@
     "widget.border": "#313131"
   },
   "semanticHighlighting": false,
+  "semanticTokenColors": {
+    "method": "#ffc190"
+  },
   "tokenColors": [
     {
       "name": "Comment",
@@ -241,7 +244,7 @@
     },
     {
       "name": "Function",
-      "scope": ["entity.name.function"],
+      "scope": ["entity.name.function", "entity.name.function.python"],
       "settings": {
         "foreground": "#ffc190"
       }
